@@ -4,8 +4,7 @@ const gruppo = [
   {
     nome: "Anthony Joshua",
     ruolo: "Pugile",
-    Foto: "ciao",
-    nazione: "inglese"
+    Foto: "img/aranzulla.jpg",
   },
   {
     nome: "Franchino Er Criminale",
@@ -13,8 +12,8 @@ const gruppo = [
     Foto: "ciao"
   },
   {
-    nome: "Cristiano",
-    ruolo: "Ronaldo",
+    nome: "Cristiano Ronaldo",
+    ruolo: "Calciatore",
     Foto: "ciao"
   },
   {

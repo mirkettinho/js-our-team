@@ -11,17 +11,24 @@ body{
 
 .container{
   margin: 0 auto;
-  background-color: rgb(30, 69, 153); 
   width: 60%;
   
 }
 
 .top{
-  background-color: bisque;
+  text-align: center;
 }
+
+.top h1{
+  color: brown;
+}
+
+.top h4{
+  color: rgb(185, 62, 62);
+}
+
 .bottom{
-  height: 500px;
-  background-color: red;
+  
 }
 
 .col{
@@ -33,4 +40,8 @@ body{
 }
 .flex{
   display: flex;
+}
+
+img{
+  width: 100%;
 }
