@@ -4,7 +4,8 @@ const gruppo = [
   {
     nome: "Anthony Joshua",
     ruolo: "Pugile",
-    Foto: "ciao"
+    Foto: "ciao",
+    nazione: "inglese"
   },
   {
     nome: "Franchino Er Criminale",
@@ -33,5 +34,43 @@ const gruppo = [
   }
 ]
 
-for(let membro of gruppo)
-console.log(membro)
+const nomeP = document.getElementById("nome-persona");
+const row = document.getElementById("row");
+console.log(nomeP)
+
+for(let membro of gruppo){
+  console.log(membro.nome, membro.ruolo, membro.Foto)
+
+  // nomeP.innerHTML = membro.nome;
+  // for (const key in membro) {
+
+  //    console.log(key, membro[key]);
+  // }
+
+  row.innerHTML += `
+  <div class="flex">
+<div class="col">
+  <div class="nome">
+    <h5 id="nome-persona">${membro.nome}</h5>
+  </div>
+</div>
+
+<div class="col">
+  <div class="nome">
+    <h5 class="ruolo-persona">${membro.ruolo}</h5>
+  </div>
+</div>
+
+<div class="col">
+  <div class="nome">
+    <h5 class="foto-persona">${membro.Foto}</h5>
+  </div>
+</div>
+
+</div>`;
+
+// console.log(nomeP);
+
+}
+
+

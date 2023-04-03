@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: #f5f5f1; 
+  
+}
+
+.container{
+  margin: 0 auto;
+  background-color: rgb(30, 69, 153); 
+  width: 60%;
+  
+}
+
+.top{
+  background-color: bisque;
+}
+.bottom{
+  height: 500px;
+  background-color: red;
+}
+
+.col{
+  width: calc(100% / 3);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid grey;
+  padding: 10px 3px;
+  color: rgba(0, 0, 0, 0.829);
+}
+.flex{
+  display: flex;
+}
